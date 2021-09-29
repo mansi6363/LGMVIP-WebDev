@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="lgm.css">
+    <title>LGM</title>
+</head>
+
+<body>
+
+    <header class="carousel relative rounded relative overflow-hidden shadow-xl">
+        <div class="carousel-inner relative overflow-hidden w-full">
+            <!--Slide 1-->
+            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
+                checked="checked">
+            <div class="carousel-item absolute opacity-0 slider"
+                style="background-image: url(https://bucketlistjourney.net/wp-content/uploads/2014/06/Book-Glasses-Coffee-Unsplash.jpg)">
+
+                <div class="flex flex-row justify-between">
+                    <nav id="logo">Bouquin</nav>
+                    <div class="flex flex-row justify-around m-10 nav">
+                        <nav class="text-xl px-10 hover:text-red-800">Home</nav>
+                        <nav class="text-xl px-10 hover:text-red-800">Products</nav>
+                        <nav class="text-xl px-10 hover:text-red-800">Pricing</nav>
+                        <nav class="text-xl px-10 hover:text-red-800">Team</nav>
+                        <nav class="text-xl px-10 hover:text-red-800">Blog</nav>
+                        <nav class="text-xl px-10 hover:text-red-800">Contact</nav>
+                    </div>
+                </div>
+
+                <div class="heading">
+                    <h1 class="font-sans text-5xl text-green-800 mt-24 mb-6">One page Promising to fill all your needs!
+                    </h1>
+                    <p class="font-sans text-xl">Find and read more books you'll love, and keep track of the books you
+                        want to read.Be part of the
+                        world's largest community of book lovers. Have access to millions of eBooks, audiobooks,
+                        magazines, and more.</p>
+
+                    <div class="flex flex-row justify-center mt-6">
+                        <button
+                            class=" font-sans font-medium bg-green-600 rounded-full py-3 px-6 mx-3">Subscribe</button>
+                        <button class=" font-sans font-medium bg-green-600 rounded-full py-3 px-6 mx-3">Learn
+                            More</button>
+                    </div>
+                </div>
+
+            </div>
+            <label for="carousel-3"
+                class="control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto flex justify-center content-center"><i
+                    class="fas fa-angle-left mt-3"></i></label>
+            <label for="carousel-2"
+                class="next control-1 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                    class="fas fa-angle-right mt-3"></i></label>
+
+            <!--Slide 2-->
+            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item absolute opacity-0 slider"
+                style="background-image: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/12DDF/production/_117497277_gettyimages-1174370345-1.jpg)">
+                <div class="rating flex flex-col items-center justify-center">
+                    <p class="p-8">READ!</p>
+                    <p class="p-8">RATE!</p>
+                    <p class="p-8">REVIEW!</p>
+                </div>
+            </div>
+            <label for="carousel-1"
+                class=" control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+                    class="fas fa-angle-left mt-3"></i></label>
+            <label for="carousel-3"
+                class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                    class="fas fa-angle-right mt-3"></i></label>
+
+            <!--Slide 3-->
+            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item absolute opacity-0 slider"
+                style=" background-image: url(https://media.gazetadopovo.com.br/2019/09/21103353/audiobook-960x540.jpg)">
+
+                <div class="heading font-medium font-sans text-5xl text-red-900 pt-24">
+                    <h1>Deciding what to read next?
+                    </h1>
+
+                    <h2>
+                        Whatever you’re into, we’ve got something for you!
+                    </h2>
+                </div>
+            </div>
+
+            <label for="carousel-2"
+                class="control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 left-0 my-auto"><i
+                    class="fas fa-angle-left mt-3"></i></label>
+            <label for="carousel-1"
+                class="next control-3 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden font-bold text-black hover:text-white rounded-full bg-white hover:bg-blue-700 leading-tight text-center z-10 inset-y-0 right-0 my-auto"><i
+                    class="fas fa-angle-right mt-3"></i></label>
+
+            <!-- Add additional indicators for each slide-->
+            <ol class="carousel-indicators">
+                <li class="inline-block mr-3">
+                    <label for="carousel-1"
+                        class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                </li>
+                <li class="inline-block mr-3">
+                    <label for="carousel-2"
+                        class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                </li>
+                <li class="inline-block mr-3">
+                    <label for="carousel-3"
+                        class="carousel-bullet cursor-pointer block text-4xl text-white hover:text-blue-700">•</label>
+                </li>
+            </ol>
+        </div>
+    </header>
+
+
+    <main>
+        <h1 class="text-center text-4xl mt-16 text-yellow-800">Welcome to Bouquin</h1>
+        <p class="text-center text-lg font-sans m-7 pt-3 pb-8 px-32">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit.
+            Fugiat
+            ea, neque blanditiis voluptates eveniet sapiente. Perspiciatis, dolore consequatur. Molestiae, nobis iusto
+            porro maiores corporis eos, excepturi culpa quis harum ratione quae similique fuga soluta. Magnam,
+            blanditiis ut.</p>
+
+        <section class=" description flex flex-row justify-center p-8 bg-blue-100">
+            <div class="flex flex-col justify-evenly items-center">
+
+                <img src="https://media.istockphoto.com/photos/nice-one-picture-id1264245349?b=1&k=20&m=1264245349&s=170667a&w=0&h=opDDyPnqWq4DASt03lTkaS-iamZvEgLOgPQe_iPfTXk="
+                    class="w-1/3">
+                <h1 class="font-medium text-lg">LIKE</h1>
+                <p class="text-justify p-8"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatum
+                    iusto esse temporibus
+                    molestias earum libero. Accusantium facere nihil, perferendis, quas maxime, magnam sed quaerat
+                    dolorum accusamus autem animi tempora.</p>
+
+                <button class="rounded-lg bg-blue-300 p-2 mt-5 hover:bg-blue-400">Learn More</button>
+            </div>
+
+            <div class="flex flex-col justify-evenly items-center">
+
+                <img src="https://media.istockphoto.com/photos/five-stars-drawn-white-chat-bubble-on-blue-background-picture-id1225669772?b=1&k=20&m=1225669772&s=170667a&w=0&h=oruk0pCXbdw0kk7C6WHFsqvMlwRHGASLHvsjlWbS214="
+                    class="w-1/3">
+                <h1 class="font-medium text-lg">RATE</h1>
+                <p class="text-justify p-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatum
+                    iusto
+                    esse temporibus
+                    molestias earum libero. Accusantium facere nihil, perferendis, quas maxime, magnam sed quaerat
+                    dolorum accusamus autem animi tempora.</p>
+
+                <button class="rounded-lg bg-blue-300 p-2 mt-5 hover:bg-blue-400">Learn More</button>
+            </div>
+
+            <div class="flex flex-col justify-evenly items-center">
+
+                <img src="https://media.istockphoto.com/photos/bubble-talk-or-comment-sign-symbol-on-blue-background-picture-id1302670509?k=20&m=1302670509&s=612x612&w=0&h=W-HxV5TOTvrwGE5-UxTSAAOZFVN8jJA8XA_3ZeuR7kU="
+                    class="w-1/3">
+                <h1 class="font-medium text-lg">REVIEW</h1>
+                <p class="text-justify p-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatum
+                    iusto
+                    esse temporibus
+                    molestias earum libero. Accusantium facere nihil, perferendis, quas maxime, magnam sed quaerat
+                    dolorum accusamus autem animi tempora.</p>
+
+                <button class="rounded-lg bg-blue-300 p-2 mt-5 hover:bg-blue-400">Learn More</button>
+            </div>
+        </section>
+    </main>
+
+
+    <main class="mt-24">
+        <h1 class="text-center text-5xl font-medium mb-10 tracking-wide ">Projects</h1>
+        <section class="project flex flex-row flex-grow">
+
+            <div class="bg-gray-200">
+                <img
+                    src="https://images.unsplash.com/photo-1609895314390-cb64c186466a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZWJvb2t8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+
+                <h2 class="m-6 px-6 font-medium text-lg">EBOOKS</h2>
+                <p class="m-6 px-6 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nesciunt
+                    id
+                    ullam maxime molestias sed
+                    nam fugiat placeat. Inventore nam a repellendus repudiandae similique repellat quos minima sint
+                    facilis at?</p>
+                <button class="bg-white font-medium  mx-10 px-6 py-3 ">Explore Here</button>
+            </div>
+
+            <div class="bg-yellow-300">
+                <img
+                    src="https://images.unsplash.com/photo-1581368087049-7034ed0d1e6f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHBvZGNhc3R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+
+                <h2 class="m-6 px-6 font-medium text-lg">PODCASTS</h2>
+                <p class="m-6 px-6 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nesciunt
+                    id
+                    ullam maxime molestias sed
+                    nam fugiat placeat. Inventore nam a repellendus repudiandae similique repellat quos minima sint
+                    facilis at?</p>
+                <button class="bg-purple-900 text-white font-medium  mx-10 px-6 py-3 ">Explore Here</button>
+            </div>
+
+            <div class="bg-gray-200">
+                <img
+                    src="https://images.unsplash.com/photo-1620578077612-b0fa340237de?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG11c2ljJTIwbGlzdGVuaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+
+                <h2 class="m-6 px-6 font-medium text-lg">AUDIOBOOKS</h2>
+                <p class="m-6 px-6 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nesciunt
+                    id
+                    ullam maxime molestias sed
+                    nam fugiat placeat. Inventore nam a repellendus repudiandae similique repellat quos minima sint
+                    facilis at?</p>
+                <button class="bg-white font-medium  mx-10 px-6 py-3 ">Explore Here</button>
+            </div>
+
+            <div class="bg-gray-300">
+                <img
+                    src="https://images.unsplash.com/photo-1612036781997-c3c7622682fb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA4fHxtYWdhemluZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+
+                <h2 class="m-6 px-6 font-medium text-lg">COMICS</h2>
+                <p class="m-6 px-6 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nesciunt
+                    id
+                    ullam maxime molestias sed
+                    nam fugiat placeat. Inventore nam a repellendus repudiandae similique repellat quos minima sint
+                    facilis at?</p>
+                <button class="bg-white font-medium  mx-10 px-6 py-3 ">Explore Here</button>
+            </div>
+        </section>
+    </main>
+
+
+    <main>
+        <h1 class="mt-24 text-center font-medium text-4xl">PRICING TABLE</h1>
+        <section class="bg-white rounded-lg px-2 py-4 w-full flex flex-row justify-center uppercase">
+
+            <div class="border-b border-gray-200 flex flex-col items-center">
+                <img src="icons/icon1.png" alt="" class="mb-10">
+                <h2 class="text-gray-500 text-xl font-semibold tracking-wide">Personal</h2>
+                <ul class="mt-10 mx-0 mb-5 text-blue-600 flex flex-col items-center">
+                    <li class="font-semibold tracking-wide leading-8 py-3 border-t border-gray-200">Custom domains</li>
+                    <li class="font-semibold tracking-wide leading-8 py-3 border-t border-gray-200">Sleeps after 30 mins
+                        of inactivity</li>
+                </ul>
+                <span class="text-blue-600 block text-2xl font-bold">Free</span>
+                <a href="#/"
+                    class="border border-blue-500 rounded-lg text-blue-500 inline-block no-underline px-8 py-2 my-3 hover:bg-blue-200">Sign
+                    up</a>
+            </div>
+
+            <div class="border-b border-gray-200 flex flex-col items-center">
+                <img src="icons/icon2.png" alt="" class="mb-10">
+                <h2 class="text-gray-500 text-xl font-semibold tracking-wide">Small team</h2>
+                <ul class="mt-10 mx-0 mb-5 text-blue-600 flex flex-col items-center">
+                    <li class="font-semibold tracking-wide leading-8 py-3 border-t border-gray-200">Never sleeps</li>
+                    <li class="font-semibold tracking-wide leading-8 py-3 border-t border-gray-200">Multiple workers for
+                        more powerful apps</li>
+                </ul>
+                <span class="text-blue-600 block text-2xl font-bold">$150</span>
+                <a href="#/"
+                    class="border border-blue-500 rounded-lg text-blue-500 inline-block no-underline px-8 py-2 my-3 hover:bg-blue-200">Free
+                    trial</a>
+            </div>
+
+            <div class="border-b border-gray-200 flex flex-col items-center">
+                <img src="icons/icon3.png" alt="" class="mb-10">
+                <h2 class="text-gray-500 text-xl font-semibold tracking-wide">Enterprise</h2>
+                <ul class="mt-10 mx-0 mb-5 text-blue-600 flex flex-col items-center">
+                    <li class="font-semibold tracking-wide leading-8 py-3 border-t border-gray-200">Dedicated</li>
+                    <li class="font-semibold tracking-wide leading-8 py-3 border-t border-gray-200">Simple horizontal
+                        scalability</li>
+                </ul>
+                <span class="text-blue-600 block text-2xl font-bold">$400</span>
+                <a href="#/"
+                    class="border border-blue-500 rounded-lg text-blue-500 inline-block no-underline px-8 py-2 my-3 hover:bg-blue-200">Free
+                    trial</a>
+            </div>
+        </section>
+    </main>
+
+    <main class="bg-gray-300 mt-10">
+        <h1 class=" pt-12 text-center font-medium text-5xl text-gray-900">Video Project</h1>
+        <section class="py-24">
+
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide ml-80">
+                        <iframe width="950" height="550" src="https://www.youtube.com/embed/U7rNWmAL3mY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <iframe width="950" height="550" src="https://www.youtube.com/embed/md7S4tqRHXE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+        </section>
+    </main>
+
+
+    <main class="w-6/12 m-auto">
+        <h1 class="text-center mt-24 text-4xl font-medium">Team Members</h1>
+        <section class="flex flex-row flex-wrap">
+            <div>
+                <div class="mx-16 mt-16 mb-6 border rounded-full h-44 w-44"
+                    style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjJb1GkV2SuyyB_fB_wQab4urmvPxEB70LSw&usqp=CAU);background-size: cover;">
+                </div>
+                <h1 class="text-center font-semibold text-sm">CHRIS PHILIPS</h1>
+                <h2 class="pt-2 text-center font-medium text-sm text-gray-500">ART DIRECTOR</h2>
+            </div>
+
+            <div>
+                <div class="mx-16 mt-16 mb-6  border rounded-full h-44 w-44"
+                    style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE18JLZ-Aoi2ibfhR1DzliTehtN7tuBlMACA&usqp=CAU);background-size: cover;">
+                </div>
+                <h1 class="text-center font-semibold text-sm">SARA JOHNSON</h1>
+                <h2 class="pt-2 text-center font-medium text-sm text-gray-500">CREATIVE HEAD</h2>
+            </div>
+
+            <div>
+                <div class="mx-16 mt-16 mb-6  border rounded-full h-44 w-44"
+                    style="background-image: url(https://media.istockphoto.com/photos/put-more-in-get-more-out-picture-id1291318636?b=1&k=20&m=1291318636&s=170667a&w=0&h=UvVIk7wwkN3X9OFm8gBlWWviV5vAjfrq2ejYP30JmnA=);background-size: cover;background-position: center;">
+                </div>
+                <h1 class="text-center font-semibold text-sm">MATT ALEX</h1>
+                <h2 class="pt-2 text-center font-medium text-sm text-gray-500">SENIOR DESIGNER</h2>
+
+            </div>
+
+            <div>
+                <div class="mx-16 mt-16 mb-6  border rounded-full h-44 w-44"
+                    style="background-image: url(https://media.istockphoto.com/photos/portrait-of-happy-smiling-woman-at-desk-picture-id1289220781?b=1&k=20&m=1289220781&s=170667a&w=0&h=Rhs-kJR35wSQU9h0cZ42bXt37qAqc__Cn82zpayqgOc=);background-size: cover;background-position: center;">
+                </div>
+                <h1 class="text-center font-semibold text-sm">HANNA WATSON</h1>
+                <h2 class="pt-2 text-center font-medium text-sm text-gray-500">ART DIRECTOR</h2>
+            </div>
+
+            <div>
+                <div class="mx-16 mt-16 mb-6 border rounded-full h-44 w-44"
+                    style="background-image: url(https://media.istockphoto.com/photos/portrait-of-handsome-latino-african-man-picture-id1007763808?b=1&k=20&m=1007763808&s=170667a&w=0&h=XOYFk0a0vrL6NVnmc9vkCwH4oRdmBfpToCfPk8425kc=);background-size: cover;background-position: center;">
+                </div>
+                <h1 class="text-center font-semibold text-sm">JIMMY SMITH</h1>
+                <h2 class="pt-2 text-center font-medium text-sm text-gray-500">MARKETING MANAGER</h2>
+            </div>
+
+            <div>
+                <div class="mx-16 mt-16 mb-6 border rounded-full h-44 w-44"
+                    style="background-image: url(https://media.istockphoto.com/photos/portrait-of-a-teenager-girl-in-an-avenue-picture-id1185766243?b=1&k=20&m=1185766243&s=170667a&w=0&h=8R-tE3LHX5fLUucgM9lciz_sK224FWBIl7LQE6kAdi0=);background-size: cover;background-position: center;">
+                </div>
+                <h1 class="text-center font-semibold text-sm">CELIEN JOHN</h1>
+                <h2 class="pt-2 text-center font-medium text-sm text-gray-500">SENIOR DESIGNER</h2>
+            </div>
+        </section>
+    </main>
+
+    <main class="bg-gray-200 mt-20 ">
+        <h1 class=" py-10 text-center font-medium text-5xl">Life in Bouquin</h1>
+
+        <div style="--swiper-navigation-color: #000; --swiper-pagination-color: #000" class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img
+                        src="https://media.istockphoto.com/photos/working-through-some-concepts-picture-id1257912988?b=1&k=20&m=1257912988&s=170667a&w=0&h=Va__TCmuioIMZwPs9xjH54tlGViKxZXNcxW274sOEBU=" />
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGVhbSUyMHdvcmt8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="https://images.unsplash.com/photo-1552581234-26160f608093?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVhbSUyMHdvcmt8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="https://images.unsplash.com/flagged/photo-1550946107-8842ae9426db?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTF8NDczMjIyNXx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="https://media.istockphoto.com/photos/empty-cafe-interior-with-chairs-and-tables-picture-id1286692956?b=1&k=20&m=1286692956&s=170667a&w=0&h=PGjBVMeX_zHAEO_6ZPipHTfQx5zoQBOU24Z4bG4Xqsk=" />
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="https://media.istockphoto.com/photos/young-people-reunite-in-cafe-after-lockdown-picture-id1263128162?b=1&k=20&m=1263128162&s=170667a&w=0&h=9AQ_B4xqE5pgOcpnMA6rjKl18HJz4AStIJ42fKWNT2g=" />
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="https://media.istockphoto.com/photos/alley-with-modern-office-buildings-picture-id180579680?b=1&k=20&m=180579680&s=170667a&w=0&h=63eDW-3XwekhcKg-kB_rErbzWmQzF6mEmetc_MQ74qk=" />
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG9mZmljZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <div thumbsSlider="" class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img
+                        src="https://media.istockphoto.com/photos/working-through-some-concepts-picture-id1257912988?b=1&k=20&m=1257912988&s=170667a&w=0&h=Va__TCmuioIMZwPs9xjH54tlGViKxZXNcxW274sOEBU=" />
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGVhbSUyMHdvcmt8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="https://images.unsplash.com/photo-1552581234-26160f608093?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVhbSUyMHdvcmt8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="https://images.unsplash.com/flagged/photo-1550946107-8842ae9426db?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTF8NDczMjIyNXx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="https://media.istockphoto.com/photos/empty-cafe-interior-with-chairs-and-tables-picture-id1286692956?b=1&k=20&m=1286692956&s=170667a&w=0&h=PGjBVMeX_zHAEO_6ZPipHTfQx5zoQBOU24Z4bG4Xqsk=" />
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="https://media.istockphoto.com/photos/young-people-reunite-in-cafe-after-lockdown-picture-id1263128162?b=1&k=20&m=1263128162&s=170667a&w=0&h=9AQ_B4xqE5pgOcpnMA6rjKl18HJz4AStIJ42fKWNT2g=" />
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="https://media.istockphoto.com/photos/alley-with-modern-office-buildings-picture-id180579680?b=1&k=20&m=180579680&s=170667a&w=0&h=63eDW-3XwekhcKg-kB_rErbzWmQzF6mEmetc_MQ74qk=" />
+                </div>
+                <div class="swiper-slide">
+                    <img
+                        src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG9mZmljZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <div
+        style="height:500px; background-image: url(https://images.unsplash.com/photo-1525838983331-f8bd3c000585?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhbG18ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);background-size:contain;background-repeat: no-repeat;background-size:100% 85%;">
+        <h1 class=" p-10 text-center text-4xl font-bold tracking-wide text-white">Newsletter Signup</h1>
+        <form>
+            <input type="text" placeholder="abc@gmail.com" class="border border-black p-2 w-2/5 ml-96 ">
+            <button class="border border-black p-2 bg-yellow-300  w-1/5">Submit</button>
+        </form>
+    </div>
+
+
+    <main class="w-4/5 m-auto">
+        <h1 class="my-12 text-4xl font-medium text-center ">BLOG</h1>
+
+        <section class=" blog flex flex-row justify-center p-8">
+            <div class="flex flex-col justify-evenly items-center">
+
+                <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dGVhbSUyMG1lbWJlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                    class="w-1/3">
+                <h1 class="font-medium text-lg text-center p-5 w-2/3">Lorem ipsum dolor sit amet consectetur elit.</h1>
+                <h2 class="pt-3 text-center text-gray-500">16 Jan 2021</h2>
+                <p class="text-center p-6 w-2/3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                    voluptatum
+                    iusto esse temporibus
+                    molestias earum libero. Accusantium facere nihil, perferendis, quas maxime, magnam sed quaerat
+                    dolorum accusamus autem animi tempora.</p>
+
+                <button class="rounded-lg bg-yellow-300 p-2 mt-5">Learn More</button>
+            </div>
+
+            <div class="flex flex-col justify-evenly items-center">
+                <img src="https://images.unsplash.com/photo-1521737451536-00a86f630f3e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRlYW0lMjBtZW1iZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                    class="w-1/3">
+                <h1 class="font-medium text-lg text-center p-5 w-2/3">Lorem ipsum dolor sit amet consectetur elit</h1>
+                <h2 class="pt-3 text-center text-gray-500">16 Jan 2021</h2>
+                <p class="text-center p-6 w-2/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                    voluptatum
+                    iusto
+                    esse temporibus
+                    molestias earum libero. Accusantium facere nihil, perferendis, quas maxime, magnam sed quaerat
+                    dolorum accusamus autem animi tempora.</p>
+
+                <button class="rounded-lg bg-gray-300 p-2 mt-5">Learn More</button>
+            </div>
+
+            <div class="flex flex-col justify-evenly items-center">
+
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fHRlYW0lMjBtZW1iZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                    class="w-1/3">
+                <h1 class="font-medium text-lg text-center p-5 w-2/3">Lorem ipsum dolor sit amet consectetur elit</h1>
+                <h2 class="pt-3 text-center text-gray-500">16 Jan 2021</h2>
+                <p class="text-center p-6 w-2/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                    voluptatum
+                    iusto
+                    esse temporibus
+                    molestias earum libero. Accusantium facere nihil, perferendis, quas maxime, magnam sed quaerat
+                    dolorum accusamus autem animi tempora.</p>
+
+                <button class="rounded-lg bg-gray-300 p-2 mt-5 hover:bg-blue-400">Learn More</button>
+            </div>
+        </section>
+    </main>
+
+
+    <main class="mt-24 flex flex-row">
+        <section class="w-6/12 b">
+            <img src="https://i0.wp.com/cssscript.com/wp-content/uploads/2018/03/Simple-Location-Picker.png?fit=561%2C421&ssl=1"
+                class="w-full h-full">
+        </section>
+
+        <section class="w-6/12 bg-yellow-300">
+            <div class="mt-10 ml-12">
+                <h1 class="text-5xl font-medium p-6">Contact</h1>
+
+                <label for="name" class="text-sm font-medium pb-2 block">NAME</label>
+                <input type="text" id="name">
+
+                <label for="email" class="text-sm font-medium pb-2 pt-8 block">Email</label>
+                <input type="email" id="email">
+
+                <label for="subjet" class="text-sm font-medium pb-2 pt-8 block">Subject</label>
+                <input type="text" id="subject">
+
+                <label for="message" class="text-sm font-medium pb-2 pt-8 block">Message</label>
+                <textarea name="message" id="message" cols="30" rows="7"></textarea>
+
+                <button class="bg-purple-900 block mt-4 w-2/6 h-8 text-white font-semibold text-sm ">Send</button>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="mt-20">
+        <section class="flex flex-row justify-center">
+
+            <div class="ml-20 px-12">
+                <h1 class="font-semibold text-sm p-2 text-center">OFFICE ADDRESS</h1>
+                <p class="text-center text-sm">Akshya Nagar 1st Block 1st Cross <br>
+                    Rammurthy nagar <br>
+                    Bangalore-560016</p>
+            </div>
+
+            <div class="ml-20 px-12">
+                <h1 class="font-semibold text-sm p-2 text-center">CONTACT US</h1>
+                <p class="text-center text-sm">+123 456 789 <br>
+                    bouquin@gmail.com <br>
+                    enquiry@bouquin.com
+                </p>
+            </div>
+
+            <div class="ml-20 px-12">
+                <h1 class="font-semibold text-sm p-2 text-center">FOLLOW US</h1>
+                <p class="w-40 h-24"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKtVa1yeG7M1dcpzIkXbuwEAfQ-cpgkZBVaw&usqp=CAU">
+                </p>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="lgm.js"></script>
+</body>
+
+</html>
