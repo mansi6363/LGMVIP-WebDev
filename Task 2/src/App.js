@@ -8,21 +8,24 @@ const App = () => {
   const loadUsers = async() => {
 
     document.querySelector('.loading').style.display = 'block';
-    setTimeout(() => {
-      document.querySelector('.loading').style.display = 'none';
-    }, 2000);
-
+    window.scrollTo(0, document.body.scrollHeight)
+    
     const response = await fetch
     ("https://reqres.in/api/users?page=1")
     const jsonResponse = await response.json();
-
+    
     const userData = jsonResponse.data.map(user => ({
       id : user.id,
       firstName: user.first_name,
       lastName: user.last_name,
       avatar : user.avatar
     }))
-    setUsers(userData)
+
+    
+    setTimeout(() => {
+      document.querySelector('.loading').style.display = 'none';
+      setUsers(userData);
+    }, 2000);
   }
   
   

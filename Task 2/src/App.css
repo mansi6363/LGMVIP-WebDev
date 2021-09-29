@@ -40,6 +40,7 @@
 
 .App_team {
   display: grid;
+  min-height: 50vh;
   grid-template-columns: repeat(3, 1fr);
   font-size: calc(10px + 2vmin);
   color: #212529;
